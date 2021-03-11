@@ -61,7 +61,7 @@ table {
     /* border:1px solid grey; */
 }
 
-nav{
+nav {
     padding:2%;
     text-align: center;
     width:100%;
@@ -69,16 +69,25 @@ nav{
     justify-content: space-around; */
 }
 
+nav a:hover{
+    background-color:seashell;
+    color:#2cb5e8;
+}
+
 nav a{
     display:inline-block;
     padding:1%;
-    width:7%;
+    width:12%;
     text-align: center;
     text-decoration: none;
-    color:black;   
-    font-size:1rem;
+    color:white; 
+    /* background-color:seashell;   */
+    font-size:2rem;
+    border-radius: 10px;
+    margin: 0% 0%;
 
 }
+
 
 
 /* 
@@ -113,6 +122,7 @@ p {
 h1{
     text-align: center;
     font-size: 6rem;
+    color:seashell;
 }
 
 .container {
@@ -123,6 +133,7 @@ h1{
 h2{
     text-align: center;
     font-size: 3rem;
+    color:seashell;
 }
 
 h2 p{
@@ -139,9 +150,9 @@ h2 p{
     background-attachment: fixed;
 }
 
-.blankspace{
+/* .blankspace{
     height: 50px;
-}
+} */
 
 .bottomcontent {
     display: flex;
