@@ -17,8 +17,17 @@ time, mark, audio, video {
 	border:1px solid grey;
 	font-size: 100%;
 	font: inherit;
+    color:whit;
 	vertical-align: baseline;
+    
 }
+
+body {
+     /* Used to enable scrolling */
+    background: linear-gradient(35deg, white 10%, #1fc8db 51%, #2cb5e8 85%, orange 99%);
+  }
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -26,6 +35,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    font-family: 'Sriracha', cursive;
 }
 ol, ul {
 	list-style: none;
@@ -48,7 +58,7 @@ table {
     margin:0;
     padding:0;
     max-width: 100%;
-    border:1px solid grey;
+    /* border:1px solid grey; */
 }
 
 nav{
@@ -121,7 +131,7 @@ h2 p{
 }
 
 .topimage{
-    background-image: url(https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80);
+    background-image: url(https://images.unsplash.com/photo-1512936702668-1ab037aced2a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80);
     height:40vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -152,8 +162,9 @@ h2 p{
 }
 
 .bottomtext{
-    width: 20%;
+    width: 40%;
     text-align: center;
     margin:4% 5%;
     font-size: 1rem;
+    background-color: white;
 }
