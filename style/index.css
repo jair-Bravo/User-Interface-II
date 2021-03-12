@@ -14,7 +14,7 @@ time, mark, audio, video {
 	box-sizing: border-box;
     margin: 0;
 	padding: 0;
-	border:1px solid grey;
+	/* border:1px solid grey; */
 	font-size: 100%;
 	font: inherit;
     color:whit;
@@ -28,25 +28,14 @@ body {
   }
 
 
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+
 body {
 	line-height: 1;
     font-family: 'Sriracha', cursive;
 }
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+
+
 }
 table {
 	border-collapse: collapse;
@@ -171,6 +160,11 @@ h2 p{
     margin:1%;
     height: 600px;
 }
+
+.image1text ,.image2text ,.image3text ,.image4text{
+    font-size: 1.2rem;
+} 
+
 
 .bottomtext{
     width: 40%;
